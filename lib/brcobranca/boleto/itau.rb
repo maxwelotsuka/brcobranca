@@ -17,7 +17,7 @@ module Brcobranca
       # Nova instancia do Itau
       # @param (see Brcobranca::Boleto::Base#initialize)
       def initialize(campos = {})
-        campos = { carteira: '175' }.merge!(campos)
+        campos = { carteira: '109' }.merge!(campos)
         super(campos)
       end
 
