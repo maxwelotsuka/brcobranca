@@ -114,6 +114,7 @@ module Brcobranca
     autoload :Cecred,        'brcobranca/boleto/cecred'
     autoload :Safra,         'brcobranca/boleto/safra'
     autoload :Citibank,      'brcobranca/boleto/citibank'
+    autoload :Cresol,        'brcobranca/boleto/cresol'
 
     # Módulos para classes de template
     module Template
@@ -150,6 +151,7 @@ module Brcobranca
       autoload :Sicredi,       'brcobranca/retorno/cnab240/sicredi'
       autoload :Sicoob,        'brcobranca/retorno/cnab240/sicoob'
       autoload :Caixa,         'brcobranca/retorno/cnab240/caixa'
+      autoload :Cresol,         'brcobranca/retorno/cnab240/cresol'
     end
   end
 
@@ -183,6 +185,7 @@ module Brcobranca
       autoload :SicoobBancoBrasil,  'brcobranca/remessa/cnab240/sicoob_banco_brasil'
       autoload :Sicredi,            'brcobranca/remessa/cnab240/sicredi'
       autoload :Unicred,            'brcobranca/remessa/cnab240/unicred'
+      autoload :Cresol,             'brcobranca/remessa/cnab240/cresol'
     end
   end
 
