@@ -22,9 +22,9 @@ module Brcobranca
       # Templates para usar com Rghost
       module Rghost
         extend self
-        include RGhost unless include?(RGhost)
+        include RGhost unless include?(RGhost)        
+        RGhost::Config::GS[:external_encoding] = Brcobranca.configuration.external_encoding
         RGhost::Config::GS[:default_params] << '-dNOSAFER'
-        #RGhost::Config::GS[:external_encoding] = Brcobranca.configuration.external_encoding
 
         # Gera o boleto em usando o formato desejado [:pdf, :jpg, :tif, :png, :ps, :laserjet, ... etc]
         #
